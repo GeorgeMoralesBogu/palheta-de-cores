@@ -8,6 +8,7 @@ cor2 = "#004338"
 
 
 janela = Tk()
+janela.title('palheta de cores')
 janela.geometry("530x205")
 janela.configure(bg=cor1)
 
