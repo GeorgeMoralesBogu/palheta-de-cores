@@ -41,7 +41,7 @@ def escala(valor):
 
 
     e_cor.delete(0,END)
-    e_cor.inset(0,hexadecimal)
+    e_cor.insert(0,hexadecimal)
 
 
 
@@ -89,3 +89,4 @@ b_copiar.grid(row= 0, column=2, padx= 5)
 
 l_app_nome = Label(frame_baixo, text="Seletor de cores", bg=cor1, font=("Ivy", 15,"bold"))
 l_app_nome.grid(row= 0, column=3, padx= 40)
+janela.mainloop()
